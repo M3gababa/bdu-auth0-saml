@@ -1,0 +1,23 @@
+{
+  "name": "auth0-saml-demo",
+  "version": "1.0.0",
+  "description": "Express SAML 2.0 Service Provider demo with Auth0 as IdP: SP-initiated SSO, IdP-initiated SSO and SP-initiated Single Logout",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M3gababa/bdu-auth0-saml.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@node-saml/passport-saml": "^5.0.0",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "passport": "^0.7.0"
+  }
+}
